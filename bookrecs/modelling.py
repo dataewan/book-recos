@@ -49,7 +49,7 @@ def train_model(model, train, n_epochs=5):
     return model, history
 
 
-def load_model():
+def load_trained_model():
     """Load the trained model from disk
     Returns: model read from disk
 
